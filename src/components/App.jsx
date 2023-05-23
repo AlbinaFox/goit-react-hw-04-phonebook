@@ -1,3 +1,6 @@
+import {Phonebook} from 'components/index'
+
+
 export const App = () => {
   return (
     <div
@@ -7,10 +10,10 @@ export const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#353434'
       }}
     >
-      React homework template
+      <Phonebook/>
     </div>
   );
 };
